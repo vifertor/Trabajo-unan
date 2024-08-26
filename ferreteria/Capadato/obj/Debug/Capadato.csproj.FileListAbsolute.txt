@@ -1,0 +1,6 @@
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capadato\bin\Debug\Capadato.dll
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capadato\bin\Debug\Capadato.pdb
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capadato\obj\Debug\Capadato.csproj.AssemblyReference.cache
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capadato\obj\Debug\Capadato.csproj.CoreCompileInputs.cache
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capadato\obj\Debug\Capadato.dll
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capadato\obj\Debug\Capadato.pdb

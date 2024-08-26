@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FD2CB4B-04EB-433A-8434-608FE57AFCCA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Capapresentación</RootNamespace>
+    <AssemblyName>Capapresentación</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMAcabados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMAcabados.Designer.cs">
+      <DependentUpon>FMAcabados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMCategoria.Designer.cs">
+      <DependentUpon>FMCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMColores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMColores.Designer.cs">
+      <DependentUpon>FMColores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMDiametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMDiametros.Designer.cs">
+      <DependentUpon>FMDiametros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMInventario.Designer.cs">
+      <DependentUpon>FMInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMMarcas.Designer.cs">
+      <DependentUpon>FMMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMMercancia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMMercancia.Designer.cs">
+      <DependentUpon>FMMercancia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMModelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMModelos.Designer.cs">
+      <DependentUpon>FMModelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMPesos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMPesos.Designer.cs">
+      <DependentUpon>FMPesos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMProducto.Designer.cs">
+      <DependentUpon>FMProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FMTipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FMTipos.Designer.cs">
+      <DependentUpon>FMTipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMAcabados.resx">
+      <DependentUpon>FMAcabados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMCategoria.resx">
+      <DependentUpon>FMCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMColores.resx">
+      <DependentUpon>FMColores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMDiametros.resx">
+      <DependentUpon>FMDiametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMInventario.resx">
+      <DependentUpon>FMInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMMarcas.resx">
+      <DependentUpon>FMMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMMercancia.resx">
+      <DependentUpon>FMMercancia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMModelos.resx">
+      <DependentUpon>FMModelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMPesos.resx">
+      <DependentUpon>FMPesos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMProducto.resx">
+      <DependentUpon>FMProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FMTipos.resx">
+      <DependentUpon>FMTipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capanegocio\Capanegocio.csproj">
+      <Project>{b11ac1c4-0ede-4ab5-b78b-5638978af120}</Project>
+      <Name>Capanegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\bin\Debug\Capanegocio.dll
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\bin\Debug\Capanegocio.pdb
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\bin\Debug\Capadato.dll
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\bin\Debug\Capadato.pdb
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\obj\Debug\Capanegocio.csproj.AssemblyReference.cache
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\obj\Debug\Capanegocio.csproj.CoreCompileInputs.cache
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\obj\Debug\Capanegocio.csproj.CopyComplete
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\obj\Debug\Capanegocio.dll
+C:\Users\Isaías Vindell\source\repos\ferreteria\Capanegocio\obj\Debug\Capanegocio.pdb
